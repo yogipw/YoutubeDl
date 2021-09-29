@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validation": "^3.0.8",
+    "ffmpeg-static": "^4.4.0",
+    "lodash": "^4.17.21",
+    "sanitize-filename": "^1.6.3",
+    "ytdl-core": "^4.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
